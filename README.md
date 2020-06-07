@@ -1,1 +1,3 @@
-# my-website-redesign
+# Redesigning my website
+
+### Using pure CSS, Vanilla JS, PHP
