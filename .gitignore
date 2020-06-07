@@ -1,0 +1,9 @@
+node_modules
+design
+gulp-installation
+package-lock.json
+.sass-cache
+src/assets/img
+dist/assets/img
+zarchive
+__
