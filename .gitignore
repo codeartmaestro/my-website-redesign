@@ -1,0 +1,12 @@
+node_modules
+design
+gulp-installation
+package-lock.json
+.sass-cache
+src/assets/img/
+src/assets/icons/
+dist/assets/img/
+dist/assets/fonts/
+dist/assets/icons/
+zarchive
+__
