@@ -1,0 +1,23 @@
+.central-symbol {
+    display: none;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    & svg {
+        fill: $white;
+        width: 4rem;
+        margin-left: 1rem;
+        opacity: 0;
+        z-index: 999;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .central-symbol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

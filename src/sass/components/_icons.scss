@@ -1,0 +1,23 @@
+.contact-icon,
+.profile-icon {
+    fill: $white;
+    stroke: none;
+    position: absolute;
+}
+
+.contact-icon {
+    left: 0;
+    transform: rotate(9deg);
+    width: 1.8rem;
+    /* stroke-miterlimit: 10; */
+    /* stroke-width: 15px; */
+}
+
+.profile-icon {
+    right: 0;
+    width: 2rem;
+}
+
+.fade-in-last {
+    opacity: 0;
+}

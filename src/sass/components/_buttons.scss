@@ -1,0 +1,43 @@
+.sect-main__btn {
+    display: inline-block;
+    // padding: 1.5rem 2rem;
+    background-color: rgba(34, 34, 34, 0.6);
+    position: absolute;
+    width: 14rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.sect-main--1 .sect-main__btn,
+.sect-main--2 .sect-main__btn {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sect-main--1 .sect-main__btn {
+    bottom: 0;
+}
+
+.sect-main--2 .sect-main__btn {
+    top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .sect-main__btn {
+        bottom: 13rem !important;
+    }
+
+    .sect-main--1 .sect-main__btn {
+        // right: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .sect-main--2 .sect-main__btn {
+        right: 0;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+}
