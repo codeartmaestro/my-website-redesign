@@ -8,11 +8,16 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/buttons";
+@import "components/central-symbol";
 @import "components/handwriting";
+@import "components/icons";
+@import "components/navbar";
 @import "components/typewriter";
 
 @import "layout/home";
 @import "layout/home-landscape";
 @import "layout/home-portrait";
+@import "layout/ie";
 @import "layout/layout";
 @import "layout/layout-768";

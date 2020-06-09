@@ -198,7 +198,8 @@ module.exports = function (grunt) {
             }, */
             js: {
                 files: ['src/js/**/*.js'],
-                tasks: ['jshint:beforeconcat', 'concat:jsmain', 'concat:jsdist', 'uglify']
+                tasks: ['concat:jsmain', 'concat:jsdist', 'uglify']
+                // 'jshint:beforeconcat', 
             },
 
         }

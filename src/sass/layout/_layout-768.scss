@@ -2,13 +2,16 @@
     .ctn {
         &-header {
             background-color: transparent;
-
-            &__main {
-                padding: 3rem;
-            }
         }
+    }
 
-        &-section {
+    .padding-page {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .sect {
+        &-main {
             width: 50%;
             height: 100%;
             left: initial;

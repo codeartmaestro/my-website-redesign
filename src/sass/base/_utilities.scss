@@ -1,8 +1,22 @@
 .handwriting,
 .typewriter {
-    position: absolute;
-    top: 50%;
+    position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.padding-page {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+
+.l-case {
+    text-transform: lowercase !important;
+}
+
+.line-br {
+    display: block;
 }
